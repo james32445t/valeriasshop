@@ -1,0 +1,156 @@
+/* Estilos para el logo */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+.slogan {
+  text-align: center;
+  color: #777;
+  font-size: 18px;
+  margin-top: -10px;
+}
+/* Estilos para el encabezado (header) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f4f7;
+}
+
+
+
+/* Estilos para el pie de página (footer) */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 16px;
+}
+
+
+
+/* Estilos adicionales para el encabezado (header) */
+
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+/* Estilos para la navegación */
+nav ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+
+
+
+
+
+
+/* Estilos para el pie de página */
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Estilos para el eslogan */
+.slogan {
+    color: #666;
+    font-size: 18px;
+}
+
+
+
+/* Estilos para las secciones con dos columnas */
+section {
+    padding:10px;
+    background-color: #f2f2f2;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+

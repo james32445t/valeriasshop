@@ -1,0 +1,300 @@
+/* Estilos para el logo */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+.slogan {
+  text-align: center;
+  color: #777;
+  font-size: 18px;
+  margin-top: -10px;
+}
+/* Estilos para el encabezado (header) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f4f7;
+}
+
+/* Estilos para la sección hero */
+.hero {
+    background-color: #f9f9f9;
+    padding: 210px 20px;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta:hover {
+    background-color: #555;
+}
+
+.cta:active {
+    background-color: #111;
+}
+
+.cta:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #555;
+}
+
+.animacion-boton {
+  animation-name: pulse;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.container-values {
+  padding: 50px;
+  background-color: #C0C0C0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.container-history {
+  padding: 60px;
+  background-color: #808080;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+/* Estilos para las secciones con dos columnas */
+section {
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la galería de imágenes */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para el título de la sección */
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos adicionales para el encabezado (header) */
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos adicionales para la sección hero */
+.hero {
+    color: #fff;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.cta {
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+
+
+/* Estilos adicionales para la galería de imágenes */
+.gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+/* Estilos para la navegación */
+nav ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+
+
+
+
+
+
+/* Estilos para el pie de página */
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
